@@ -1,0 +1,13 @@
+{
+  "plugin": {
+    "version": 1.0,
+    "apiVersion": 1.2,
+    "displayName": "Blog",
+    "description": "Blog plugin with basic Tailwind styling.",
+    "imageUrl": "",
+    "repoName": "",
+    "gitProvider": "github",
+    "repoUrl": "",
+    "demoUrl": ""
+  }
+}

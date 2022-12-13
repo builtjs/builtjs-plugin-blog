@@ -1,0 +1,21 @@
+{
+  "module": 
+    {
+      "slug": "blog",
+      "displayName": "Blog",
+      "description": "Displays informal diary-style entries",
+      "moduleParts": [
+        {
+          "slug": "blog-base"
+        }
+      ],
+      "deps": {
+        "frontend": {
+          "dependencies": {
+            "date-fns": "^2.28.0",
+            "react-markdown": "^8.0.3"
+          }
+        }
+      }
+    }
+}

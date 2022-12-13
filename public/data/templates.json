@@ -1,0 +1,64 @@
+{
+  "templates": [
+    {
+      "slug": "header-1",
+      "displayName": "Header 1",
+      "category": "headers",
+      "description": "Simple header with justified logo and nav links.",
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/headers/header-1/header-1.js",
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/headers#header-1"
+    },
+    {
+      "slug": "footer-1",
+      "displayName": "Footer 1",
+      "category": "footers",
+      "description": "Simple footer with centered content and social links.",
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/footers/footer-1/footer-1.js",
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/footers#footer-1"
+    },
+    {
+      "slug": "seo",
+      "type": "head",
+      "displayName": "SEO",
+      "category": "head",
+      "description": "Define SEO meta titles, meta descriptions and social media meta data.",
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/head/seo/seo.js"
+    },
+    {
+      "slug": "list-4",
+      "displayName": "List 4",
+      "category": "lists",
+      "description": "List item with two offset columns and split content.",
+      "images": {
+        "thumb": "https://cdn.jsdelivr.net/gh/builtjs/builtjs-theme-corporate-tailwind/public/images/templates/lists/list-4/list-4.png",
+        "lrg": "https://cdn.jsdelivr.net/gh/builtjs/builtjs-theme-corporate-tailwind/public/images/templates/lists/list-4/list-4.png"
+      },
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/lists/list-4/list-4.js",
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/lists#list-4"
+    },
+    {
+      "slug": "list-5",
+      "displayName": "List 5",
+      "category": "lists",
+      "description": "List of items with three equal columns, left aligned content and an image.",
+      "images": {
+        "thumb": "https://cdn.jsdelivr.net/gh/builtjs/builtjs-theme-corporate-tailwind/public/images/templates/lists/list-5/list-5.png",
+        "lrg": "https://cdn.jsdelivr.net/gh/builtjs/builtjs-theme-corporate-tailwind/public/images/templates/lists/list-5/list-5.png"
+      },
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/lists/list-5/list-5.js",
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/lists#list-5"
+    },
+    {
+      "slug": "article-1",
+      "displayName": "Article 1",
+      "category": "articles",
+      "description": "Article section with hero image.",
+      "images": {
+        "thumb": "https://cdn.jsdelivr.net/gh/builtjs/builtjs-theme-corporate-tailwind/public/images/templates/articles/article-1/article-1.png",
+        "lrg": "https://cdn.jsdelivr.net/gh/builtjs/builtjs-theme-corporate-tailwind/public/images/templates/articles/article-1/article-1.png"
+      },
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/articles/article-1/article-1.js",
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/blog-items/lorem-ipsum-dolor-sit-ameta#article-1"
+    }
+  ]
+}
