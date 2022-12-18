@@ -2,7 +2,7 @@ import { format } from 'date-fns';
 import Image from "next/image";
 import getConfig from "next/config";
 import Link from "next/link";
-import { Tag } from "@/elements";
+import { Tag } from "@/plugin-elements/builtjs-blog";
 
 const getHTML = (content) => {
   return {

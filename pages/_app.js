@@ -1,4 +1,4 @@
-import "../styles/index.css";
+import "@/plugin-styles/builtjs-blog/index.css";
 
 function App({ Component, pageProps }) {
   return <Component {...pageProps} />

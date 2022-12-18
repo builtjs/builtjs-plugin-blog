@@ -1,10 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/router";
 import getConfig from "next/config";
-
-import ModeToggleBtn from "../../../elements/mode-toggle-btn";
+import { ModeToggleBtn } from "@/plugin-elements/builtjs-blog";
 
 export default function Header1({ content }) {
   const { publicRuntimeConfig } = getConfig();

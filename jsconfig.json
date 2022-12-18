@@ -16,8 +16,11 @@
     "declaration": false,
     "resolveJsonModule": true,
     "paths": {
-      "@/elements": [
-        "components/elements/index"
+      "@/plugin-styles/*": [
+        "styles/plugins/*"
+      ],
+      "@/plugin-elements/*": [
+        "components/elements/plugins/*"
       ],
       "@/templates/*": [
         "components/templates/*"
