@@ -23,3 +23,5 @@ export const contentTypes = {
   BLOG_ITEM: "blog-item",
   SERVICE: "service",
 };
+
+export const language = 'typescript';

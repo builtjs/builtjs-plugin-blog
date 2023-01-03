@@ -1,8 +1,8 @@
 import Head from "next/head";
 import getConfig from "next/config";
 
-export default function Seo({ content }) {
-  let { attributes } = { ...content };
+export default function Seo({ content }:any) {
+  let { attributes=null } = { ...content };
   const { publicRuntimeConfig } = getConfig();
   let shareImage = `${publicRuntimeConfig.BACKEND_URL || ""}${
     attributes.shareImage.data.attributes.url

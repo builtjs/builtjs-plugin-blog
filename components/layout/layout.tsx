@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Layout = (props) => {
+const Layout = (props: any) => {
   if (!props) return <></>;
   const { children, layoutComps, page } = props;
 
@@ -8,7 +8,7 @@ const Layout = (props) => {
     <>
       {page &&
         layoutComps.length > 0 &&
-        layoutComps.map((Section, i) => {
+        layoutComps.map((Section: any, i: number) => {
           return (
             <div key={i}>
               <Section content={page.layout.sections[i].content} />

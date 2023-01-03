@@ -1,4 +1,5 @@
 import dynamic from "next/dynamic";
+import { language } from "./constants";
 
 export async function getComponentMap(sections) {
   return new Promise(async (resolve) => {
@@ -6,7 +7,7 @@ export async function getComponentMap(sections) {
     for (let i = 0; i < sections.length; i++) {
       const template = sections[i].template.doc;
       map["section" + i] = import(
-        `../components/templates/${template.category}/${template.slug}/${template.slug}.js`
+        `../components/templates/${template.category}/${template.slug}/${template.slug}.${language === 'typescript' ? 'tsx' : 'jsx'}`
       );
     }
     resolve(map);

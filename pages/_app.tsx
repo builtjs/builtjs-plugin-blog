@@ -1,6 +1,7 @@
 import "@/plugin-styles/builtjs-blog/index.css";
+import type { AppProps } from 'next/app'
 
-function App({ Component, pageProps }) {
+function App({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />
 }
 
