@@ -29,9 +29,6 @@
         "author": {
           "id": 1
         },
-        "author2": {
-          "id": 1
-        },
         "status": "published"
       }
     },
@@ -94,7 +91,7 @@
         },
         "date": "2022-04-03",
         "author": {
-          "id": 1
+          "id": 2
         },
         "status": "published"
       }
