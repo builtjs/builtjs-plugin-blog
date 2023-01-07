@@ -16,8 +16,8 @@
     "incremental": true,
     "baseUrl": "./",
     "paths": {
-      "@/plugin-styles/*": [
-        "styles/plugins/*"
+      "@/styles/*": [
+        "styles/*"
       ],
       "@/plugin-elements/*": [
         "components/elements/plugins/*"

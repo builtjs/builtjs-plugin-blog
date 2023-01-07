@@ -1,4 +1,4 @@
-import "@/plugin-styles/builtjs-blog/index.css";
+import "@/styles/bjs-blog/index.css";
 import type { AppProps } from 'next/app'
 
 function App({ Component, pageProps }: AppProps) {

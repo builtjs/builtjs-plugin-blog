@@ -1,7 +1,8 @@
 {
   "plugin": {
-    "version": 1.0,
-    "apiVersion": 1.2,
+    "namespace": "bjs-blog",
+    "version": "1.0",
+    "apiVersion": "1.2",
     "displayName": "Blog",
     "description": "Blog plugin with basic Tailwind styling.",
     "imageUrl": "",
@@ -10,15 +11,8 @@
     "gitProvider": "github",
     "repoUrl": "",
     "demoUrl": "",
-    "module": {
-      "slug": "blog",
-      "displayName": "Blog",
-      "description": "Displays informal diary-style entries",
-      "moduleParts": [
-        {
-          "slug": "blog-base"
-        }
-      ]
+    "mainModule": {
+      "slug": "blog"
     },
     "deps": {
       "frontend": {
