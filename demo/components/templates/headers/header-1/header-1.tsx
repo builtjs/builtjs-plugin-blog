@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import getConfig from "next/config";
-import { ModeToggleBtn } from "@/plugin-elements/builtjs-blog";
+import ModeToggleBtn from "@/demo/components/elements/mode-toggle-btn";
 
 export default function Header1({ content }: any) {
   const { publicRuntimeConfig } = getConfig();

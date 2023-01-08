@@ -19,11 +19,11 @@
       "@/styles/*": [
         "styles/*"
       ],
-      "@/plugin-elements/*": [
-        "components/elements/plugins/*"
+      "@/plugin-components/*": [
+        "components/plugins/*"
       ],
-      "@/templates/*": [
-        "components/templates/*"
+      "@/demo/*": [
+        "demo/*"
       ],
       "@/layout/*": [
         "components/layout/*"

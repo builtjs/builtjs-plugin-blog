@@ -2,8 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   publicRuntimeConfig: {
-    API_URL: '',
-    BACKEND_URL: '',
+    NAMESPACE: 'bjs-blog'
   }
 }
 

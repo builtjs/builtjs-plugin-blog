@@ -1,22 +1,26 @@
+import { GetStaticPaths, GetStaticProps } from "next";
 import { withRouter } from "next/router";
 import { getConfig, getItems } from "@builtjs/theme";
-import Page from "../../theme/page";
-import { pages } from "../../theme/constants";
+import Page from "../../demo/page";
+import { pages } from "../../demo/constants";
 
 export default withRouter(Page);
 
-export async function getStaticPaths() {
-  const allItems = await getItems('blog-item');
+export const getStaticPaths: GetStaticPaths = async () => {
+  const allItems = await getItems("blog-item");
   return {
-    paths: allItems.items.map(({ attributes }) => `/blog-items/${attributes.slug}`) ?? [],
+    paths:
+      allItems.items.map(
+        ({ attributes }: any) => `/blog-items/${attributes.slug}`
+      ) ?? [],
     fallback: true,
   };
-}
+};
 
-export async function getStaticProps({ params }) {
+export const getStaticProps: GetStaticProps = async (context) => {
   const config = await getConfig(pages.BLOG_ARTICLE);
-  config.params = params;
+  config.params = context.params;
   return {
-    props: { config }
+    props: { config },
   };
-}
+};

@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import getConfig from "next/config";
 import { format } from "date-fns";
-import { Tag } from "@/plugin-elements/builtjs-blog";
+import { Tag } from "@/plugin-components/bjs-blog/elements";
 
 export default function List5({ content, router }: any) {
   if (!content) return <></>;

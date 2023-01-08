@@ -1,8 +1,8 @@
-export const setupCrumbs = async (router) => {
+export const setupCrumbs = async (router:any) => {
   window.addEventListener("load", function () {
     showCrumbs();
   });
-  router.events.on("routeChangeComplete", (url) => {
+  router.events.on("routeChangeComplete", (url:string) => {
     showCrumbs();
   });
 };

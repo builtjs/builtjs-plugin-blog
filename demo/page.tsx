@@ -1,25 +1,25 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import Layout from "../components/layout/layout";
+import Layout from "@/plugin-components/bjs-blog/layout/layout";
 import { setupCrumbs } from ".";
 import { getComponents } from "./utils";
 
 const { transformPage } = require("@builtjs/theme");
 
-const Page = ({ config }) => {
+const Page = ({ config }:any) => {
   const router = useRouter();
   const { slug } = router.query;
-  const [page, setPage] = useState({});
-  const [layoutComps, setLayoutComps] = useState([]);
-  const [sectionComps, setSectionComps] = useState([]);
-  let [isSetUpCrumbs, setIsSetupCrumbs] = useState(false);
+  const [page, setPage] = useState<any>(null);
+  const [layoutComps, setLayoutComps] = useState<any>([]);
+  const [sectionComps, setSectionComps] = useState<any>([]);
+  let [isSetUpCrumbs, setIsSetupCrumbs] = useState<boolean>(false);
 
   useEffect(() => {
     if (!isSetUpCrumbs) {
       setupCrumbs(router);
       setIsSetupCrumbs(true);
     }
-    setPage(null);
+    setPage(null)
     setLayoutComps([]);
     init();
   }, [slug]);
@@ -48,7 +48,7 @@ const Page = ({ config }) => {
           <>
             {page &&
               sectionComps.length > 0 &&
-              sectionComps.map((Section, i) => {
+              sectionComps.map((Section:any, i:number) => {
                 return (
                   page.sections[i] && (
                     <Section key={i} content={page.sections[i].content} />

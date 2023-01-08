@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { format } from "date-fns";
 import getConfig from "next/config";
-import { Tag } from "@/plugin-elements/builtjs-blog";
+import { Tag } from "@/plugin-components/bjs-blog/elements";
 
 export default function List3({ content }: any) {
   if (!content) return <></>;

@@ -1,6 +1,24 @@
 {
   "templates": [
     {
+      "slug": "header-1",
+      "displayName": "Header 1",
+      "category": "headers",
+      "isDemo": true,
+      "description": "Simple header with justified logo and nav links.",
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/headers/header-1/header-1.js",
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/headers#header-1"
+    },
+    {
+      "slug": "footer-1",
+      "displayName": "Footer 1",
+      "category": "footers",
+      "isDemo": true,
+      "description": "Simple footer with centered content and social links.",
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/footers/footer-1/footer-1.js",
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/footers#footer-1"
+    },
+    {
       "slug": "seo",
       "type": "head",
       "displayName": "SEO",
