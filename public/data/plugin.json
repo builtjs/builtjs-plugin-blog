@@ -1,7 +1,7 @@
 {
   "plugin": {
     "namespace": "bjs-blog",
-    "version": "1.0",
+    "version": "1.0.0",
     "apiVersion": "1.2",
     "displayName": "Blog",
     "description": "Blog plugin with basic Tailwind styling.",
